@@ -47,6 +47,7 @@
         }
         img {
             margin-left: 3rem;
+            margin-bottom: 1rem;
         }
     }
     &__col3 {
@@ -64,9 +65,11 @@
         }
         img {
             margin-left: 3rem;
+            margin-bottom: 1rem;
         }
     }
     &__sy {
+        padding-left: 6rem;
         text-align: center;
         margin-top: 1rem;
         img {
@@ -75,7 +78,7 @@
         p {
             margin-bottom: .5rem;
             font-size: 18px;
-            font-weight: 700;
+            // font-weight: 700;
             color: #1A519E;
         }
     }
@@ -200,7 +203,7 @@
             align-self: center;
             img {
                 margin-bottom: 1rem;
-                margin-left: 7rem;
+                margin-left: 4rem;
             }
             p {
                 text-align: center;
@@ -213,7 +216,7 @@
             align-self: center;
             img {
                 margin-bottom: 1rem;
-                margin-left: 7rem;
+                margin-left: 1rem;
             }
             p {
                 text-align: center;
@@ -234,7 +237,7 @@
         }
         img {
             margin-bottom: 1rem;
-            margin-left: 7rem;
+            margin-left: 4rem;
         }
         p {
             text-align: center;
@@ -260,6 +263,8 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 4rem;
+        margin-bottom: 2rem;
+        padding-right: 2rem;
     }
     &__left {
         text-align: center;
