@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- title -->
+    <title>Page Test : Covid-19</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/normalize.css">
+    <!-- add jq cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <script>
+            $(function() {
+                $("nav").load("html_sections/navbar.html");
+            });
+        </script>
+    </nav>
+    <!-- end navbar -->
+    <!--Section test-->
+    <div class="pagination"><img class="pagination__img" src="Design/Assets/png/Pagination.png" alt="Pagination">
+        <div class="pagination__inf">
+            <h2>Préambule</h2>
+            <p>«L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à fluidifier la prise en charge des<br>personnes par les services d’urgences pendant l’épidémie de Coronavirus COVID-19. L’exhaustivité,
+                l’exactitude, le caractère à jour des<br>informations et contenus mis à disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.</p>
+            <hr class="pagination__line">
+            <p>L’utilisation de l’application et de son contenu ne remplace en aucun cas le conseil nécessaire donné par votre médecin ou votre pharmacien ou tout autre professionnel<br>de santé compétent dans chaque cas particulier. Tout examen ou décision
+                de l’utilisateur doit être réalisé ou prise de manière<br>autonome sur la base de l’information scientifique et clinique pertinente, de la notice officielle du produit concerné le cas échéant et en cas de doute, en consultant un médecin
+                compétent.
+            </p>
+        </div>
+        <div class="pagination__buttonstart"><a href="">Demarer le test</a></div>
+    </div>
+    <!-- recommandation -->
+    <section>
+        <script>
+            $(function() {
+                $("section").load("html_sections/recommandation.html");
+            });
+        </script>
+    </section>
+    <!-- end recommandation -->
+    <!-- footer -->
+    <footer>
+        <script>
+            $(function() {
+                $("footer").load("html_sections/footer.html");
+            });
+        </script>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
