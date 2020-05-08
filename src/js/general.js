@@ -62,6 +62,7 @@ precedent.addEventListener("click", (e) => {
     suivant.classList.remove("affiche");
     if (conter > 0) {
         conter--;
+        valeur--;
     }
     if (conter == 0) {
         precedent.classList.add("affiche");
@@ -69,6 +70,7 @@ precedent.addEventListener("click", (e) => {
     question.innerHTML = questions[conter];
     inputs = document.querySelectorAll(".answer-inputs input");
     recuperation();
+    progressBar(conter, valeur);
     e.preventDefault();
 });
 ////// recuperation des resultat ///////////////////
